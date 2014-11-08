@@ -11,6 +11,18 @@
 	border: 1px solid #ccc;
 }
 
+#container_more_vert
+{
+	margin: 0 auto;
+	background:#fff;
+	border: 1px solid #ccc;
+}
+
+#container_more_vert li
+{
+    padding-bottom: 5px;
+}
+
 #container_pinched
 {
 	margin: 0 auto;
@@ -23,7 +35,7 @@
 #container_highlighted
 {
 	margin: 0 auto;
-	width: 84%;
+	width: 94%;
 	background:#f5f5f5;
 	padding: 0px 20px 0px 20px;
 	border: 1px solid #ccc;
