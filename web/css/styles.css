@@ -53,6 +53,11 @@
 	border-bottom: 1px solid #ccc;
 }
 
+#navigation li
+{
+    padding-bottom: 0px;
+}
+
 #navigation ul
 {
 	margin: 0;
