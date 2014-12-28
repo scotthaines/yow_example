@@ -1,4 +1,4 @@
-oow_example
+yow_example
 ===========
 
-Our Own Web Example
+Your Own Web Example
