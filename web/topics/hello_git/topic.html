@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Hello Git</title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+  <link href="../../css/styles.css" rel="stylesheet" type="text/css"
+  media="screen and (min-width: 1024px)" />
+  <link href="../../css/styles_narrow.css" rel="stylesheet" type="text/css"
+  media="screen and (max-width: 1023px)" />
+  <link href="../../css/print.css" rel="stylesheet" type="text/css"
+  media="print" />
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1>YOW Example</h1>
+</div>
+
+<div id="navigation">
+<ul>
+  <li><a href="../../index.html">Home</a></li>
+  <li><a href="../use/topic.html">^</a></li>
+  <li><a href="../about/topic.html">About</a></li>
+</ul>
+</div>
+
+<div id="content">
+<h2>Hello Git</h2>
+
+<p>Follow these Hello Git instructions to quickly start using Git and
+TortoiseGit. If instead you want to know why Git and TortoiseGit might be
+useful read <a href="../Git_for_you/topic.html">Git for you</a>.</p>
+
+<p>You create a Git repository and commit a file to the repository. You learn
+about commit, the most commonly used Git command. You also learn about right
+click Windows Explorer TortoiseGit access to Git commands.</p>
+
+<p>Once you have the <a href="#L1855">prerequisites</a> follow either the <a
+href="#L1862">brief instructions</a> or <a href="#L1871">more complete
+instructions</a>.</p>
+
+<p>Next, on your own, use TortoiseGit to try other Git commands and learn more
+about Git.</p>
+
+<p><strong><a name="L1855" id="L1855"></a>Prerequisites</strong></p>
+<ol>
+  <li>You need a Windows computer with Git and TortoiseGit installed. 
+    <p>I used a Windows 7 32 bit computer with Git 1.8.1 and TortoiseGit
+    1.8.3.0 32 bit. Many other Microsoft Windows computers with other versions
+    of Git and TortoiseGit should work just as well.</p>
+  </li>
+  <li>You need to know how to start and use Windows Explorer (File Explorer in
+    Windows 8). 
+    <p>You can have pretty much any Windows Explorer settings and still follow
+    the Hello Git instructions. I usually use the following Windows Explorer
+    settings.</p>
+    <ol type="a">
+      <li>Navigation pane on</li>
+      <li>Details view</li>
+      <li>Show hidden files, folders and drives</li>
+      <li>Show extensions for known file types</li>
+    </ol>
+  </li>
+</ol>
+
+<p><strong><a name="L1862" id="L1862"></a>Brief no-pictures Hello Git
+instructions</strong></p>
+<ol>
+  <li>In Windows Explorer (File Explorer in Windows 8) create a new folder
+    named hello_git.</li>
+  <li>Right click in a new hello_git folder in Windows Explorer (File Explorer
+    in Windows 8) and select "Git Create repository here...".</li>
+  <li>Leave "[ ] Make it Bare (No working directories)" unchecked and press the
+    OK button. </li>
+  <li>Press OK in the message box which appears to indicate success,
+    "Initialized empty Git repository ...". 
+    <p>The new hello_git folder will appear empty or it will show a .git
+    folder. This depends on whether "Show hidden files, folders, and drives" is
+    disabled or enabled.</p>
+  </li>
+  <li>Right click again in the hello_git folder. Select "New", "Text Document".
+    Name the text document hello_git.</li>
+  <li>Right click again in the hello_git folder. Select 'Git Commit -&gt;
+    "master"...'.</li>
+  <li>A message box will appear asking "User name and email must be set before
+    commit. Do you want to set these now?". Press the Yes button.</li>
+  <li>In the Settings window type in "Name:" and "Email:" and press the OK
+    button.</li>
+  <li>In the Commit window check the box by the name of your newly created text
+    file, hello_git.txt. 
+    <p>Still in the Commit window type in the "Message:" area. A short
+    descriptive message is appropriate. In this case "Hello Git!" or "initial
+    commit" are appropriate. Note, the OK button ungrays and becomes selectable
+    once both a file is checked and text is in the message box. Press the OK
+    button.</p>
+  </li>
+  <li>In the Git Command Progress window "Success ..." should be indicated.
+    Press the Close button.</li>
+  <li>In Windows Explorer a green icon overlay on the text document's icon
+    should appear. If it does not move away from the new folder and back to it
+    to force a refresh of the file icon for the new text document.</li>
+  <li>If you want to change your TortoiseGit Icon Set right click in the
+    hello_git folder and select TortoiseGit -&gt; Settings. In the Settings
+    dialog select Icon Set. I use the TortoiseGit Straight Icon Set because its
+    plain icons look good with the small icons of the Windows Explorer details
+    view. You likely will have to restart the computer to have the new icon set
+    take affect.</li>
+</ol>
+
+<p><strong><a name="L1871" id="L1871"></a>More complete Hello Git
+instructions</strong></p>
+
+<p>1. In Windows Explorer (File Explorer in Windows 8) create a new folder
+named hello_git.</p>
+
+<p><img alt="Windows Explorer - empty hello_git folder"
+src="data/hello_Git_-_01.png" width="751" height="243" /></p>
+
+<p>The new hello_git folder can go in pretty much any location on your computer
+that works for you. When you are done with these instructions the hello_git
+folder will have a Git repository in it. I put the hello_git folder in a
+projects folder on the C disk.</p>
+
+<p>2. Right click in the hello_git folder and select "Git Create repository
+here...".</p>
+
+<p><img alt="Git Create repository here..."
+src="data/hello_Git_-_02_cropped.png" width="752" height="387" /></p>
+
+<p>3. The TortoiseGit "Git Init" dialog appears. Leave "[ ] Make it Bare (No
+working directories)" unchecked. Press the OK button.</p>
+
+<p><img alt="Leave &quot;[ ] Make it Bare ...&quot; unchecked."
+src="data/hello_Git_-_03.png" width="480" height="196" /></p>
+
+<p>4. The informational message box "Initialized empty Git repository in ..."
+indicates you successfully created a Git repository. Press the OK button.</p>
+
+<p><img
+alt="&quot;Initialized empty Git repository in ...&quot; indicates success."
+src="data/hello_Git_-_04.png" width="382" height="116" /></p>
+
+<p>The "Initialize empty Git repository ..." message box is your one sure
+indication you successfully created a Git repository. The new folder will
+appear empty or it will show a .git folder. This depends on whether "Show
+hidden files, folders, and drives" is disabled or enabled.</p>
+
+<p>5. Create a hello_git.txt file in the hello_git folder.</p>
+
+<p><img alt="hello_git.txt file" src="data/hello_Git_-_11.png" width="751"
+height="243" /></p>
+
+<p>6. Right click again in the hello_git folder. Select 'Git Commit -&gt;
+"master"...'.</p>
+
+<p><img alt="right click and select commit"
+src="data/hello_Git_-_12_cropped.png" width="755" height="399" /></p>
+
+<p>7. A message box appears, "User name and email must be set before commit. Do
+you want to set these now?". Press the Yes button.</p>
+
+<p><img alt="Do you want to enter user name and email now?"
+src="data/hello_Git_-_13.png" width="354" height="116" /></p>
+
+<p>8. In the Settings window type in your "Name:" and "Email:" and press the OK
+button. I entered Friedbook and friedbook@gmail.com.</p>
+
+<p><img alt="Enter user name and email." src="data/hello_Git_-_15.png"
+width="709" height="483" /></p>
+
+<p>9. In the Commit window check the box by hello_git.txt to commit this
+file.</p>
+
+<p>Type in the "Message:" area. A short descriptive message is appropriate. In
+this case I typed "initial commit". Note, the OK button ungrays and becomes
+selectable once both a file is checked and text is in the message box. Press
+the OK button.</p>
+
+<p><img alt="initial commit" src="data/hello_Git_-_17.png" width="555"
+height="535" /></p>
+
+<p>10. In the Git Command Progress window "Success ..." should be indicated.
+Press the Close button.</p>
+
+<p><img alt="Git Command Progress - Success" src="data/hello_Git_-_18.png"
+width="513" height="345" /></p>
+
+<p>11. In Windows Explorer a green icon overlay on the text document's icon
+should appear. If it does not move away from the new folder and back to it to
+force a refresh of the file icon for the new text document.</p>
+
+<p><img
+alt="hello_git folder and hello_git.txt file with TortoiseGit icon overlays"
+src="data/hello_Git_-_21.png" width="701" height="243" /></p>
+
+<p>12. Your TortoiseGit green icon overlays may appear different from the green
+circles shown above. To change your TortoiseGit Icon Set to match above right
+click in the hello_git folder and select TortoiseGit -&gt; Settings. In the
+Settings dialog select Icon Set. Select Straight from the drop down list in the
+upper right. Press the OK button. You likely will have to restart the computer
+to have the new icon set take affect.</p>
+
+<p><img alt="Icon Set - Straight" src="data/hello_Git_-_23.png" width="709"
+height="483" /></p>
+
+<p>I use the TortoiseGit Straight Icon Set because its plain icons still look
+good with the small icons of the Windows Explorer details view.</p>
+
+<p><strong>Conclusion</strong></p>
+
+<p>If you have had success with the above instructions then you know Git and
+TortoiseGit are basically working on your computer. Also you have started using
+both TortoiseGit and Git. You have</p>
+<ol>
+  <li>Created a Git repository.</li>
+  <li>Committed a file to the repository.</li>
+  <li>Used right click in Windows Explorer to get at TortoiseGit and its
+    presentation of Git commands.</li>
+</ol>
+
+<p>Next, on your own, use TortoiseGit to try other Git commands and learn more
+about Git.</p>
+</div>
+
+<div id="footer">
+
+<div id="footer_text_left">
+<span xmlns:dct="http://purl.org/dc/terms/">YOW Example</span> by
+<a xmlns:cc="http://creativecommons.org/ns#" href="https://sites.google.com/site/friedbook/"
+rel="cc:attributionURL">Scott Haines</a> is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
+4.0 International License</a> except where <a
+href="../attributions/topic.html">otherwise noted</a>.</div>
+
+<div id="footer_text_right">
+Page updated 2014 12 28, Copyright © Scott Haines, 2014</div>
+</div>
+</div>
+</body>
+</html>
