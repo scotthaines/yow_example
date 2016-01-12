@@ -4,6 +4,7 @@
 	width: 950px;
 	background:#fff;
 	border: 1px solid #ccc;
+	font-family: Helvetica, sans-serif;
 }
 
 #container_highlighted
@@ -35,6 +36,7 @@
 /*	background:#fff; */
 	padding: 0px 20px 0px 20px;
 /*	border: 1px solid #fff; */
+	font-family: Helvetica, sans-serif;
 }
 
 #header
