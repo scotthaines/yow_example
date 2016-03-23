@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>CSS layouts</title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+  <link href="../../css/styles.css" rel="stylesheet" type="text/css"
+  media="screen and (min-width: 1024px)" />
+  <link href="../../css/styles_narrow.css" rel="stylesheet" type="text/css"
+  media="screen and (max-width: 1023px)" />
+  <link href="../../css/print.css" rel="stylesheet" type="text/css"
+  media="print" />
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1>YOW Doc</h1>
+</div>
+
+<div id="navigation">
+<ul>
+  <li><a href="../../index.html">Home</a></li>
+  <li><a href="../../index.html">^</a></li>
+  <li><a href="../about/topic.html">About</a></li>
+</ul>
+</div>
+
+<div id="content">
+<h2>CSS layouts</h2>
+
+<p>Here are fixed width, centered, Cascading Style Sheet (CSS) layout examples
+originally from Max Design.<sub><a href="#L185">[1]</a></sub> </p>
+
+<p><a
+href="data/Max_Design_CSS_layout_examples_-_2014_07_06.zip">Max_Design_CSS_layout_examples_-_2014_07_06.zip</a>
+md5sum c21de7f89f29e97aa5cf7ddeb47f30e6</p>
+
+<p>CSS combined with a document type (doctype) makes for a consistent enough
+display in a browser. Use these examples to create CSS layouts for your own
+browser pages. As Max Design states, "Here are a range of free CSS page
+layouts,", "...free to use and abuse as needed."</p>
+
+<p><strong>Advantages of fixed width centered layouts</strong></p>
+
+<p>Fixed width, centered layouts offer several advantages. A fixed width
+centered display makes the presentation reasonably consistent from one computer
+monitor resolution to another. The fixed width makes the presentation somewhat
+more paper like in that the text does not move from one line to another as the
+browser window is resized. The centered display keeps the page in front of the
+viewer rather than off to the left no matter the display width.</p>
+
+<p><a href="data/consistent_display_with_different_resolution.png"><img
+alt="different resolutions"
+src="data/consistent_display_with_different_resolution_-_30_percent.png"
+width="876" height="357" /></a></p>
+
+<p>Above the centered fixed width display is consistent no matter the
+computer's display width.</p>
+
+<p><strong>Details matter. Both CSS and doctype are needed in the .html
+file.</strong></p>
+
+<p>Both the CSS layout file and the doctype need to be specified in the page
+file to ensure browsers center the page.</p>
+
+<p><a
+href="data/inconsistent_display_in_different_browsers_without_doctype.png"><img
+alt="inconsistent display in browsers when not including doctype"
+src="data/inconsistent_display_in_different_browsers_without_doctype_-_50_percent.png"
+width="907" height="450" /></a></p>
+
+<p>Above with css and no doctype in the .html Internet Explorer and Chrome
+displays are inconsistent which is not desired. One is left and one is
+centered.</p>
+
+<p><a
+href="data/consistent_display_in_different_browsers_with_both_css_and_doctype.png"><img
+alt="consistent display in different browsers with both css and doctype"
+src="data/consistent_display_in_different_browsers_with_both_css_and_doctype_-_50_percent.png"
+width="907" height="450" /></a></p>
+
+<p>Above with both css and doctype in the .html both Internet Explorer and
+Chrome center the page as desired.</p>
+<dl>
+  <dt>The only difference between the two files</dt>
+  <dt style="margin-left:2em;">1_column_-_css.html</dt>
+  <dt>and</dt>
+  <dt style="margin-left:2em;">1_column_-_css_doctype.html,</dt>
+  <dt>is the additional </dt>
+  <dt style="margin-left:2em;">&lt;!DOCTYPE html&gt;</dt>
+  <dt>line at the beginning of the second file.</dt>
+  <dt></dt>
+</dl>
+
+<p><img alt="only difference between files is DOCTYPE html"
+src="data/only_difference_between_files_is_DOCTYPE_html.png" width="797"
+height="350" /></p>
+
+<p>The differences between the two files is shown in Emacs above. </p>
+
+<p>Use a text editor like Emacs or Notepad or look at source in <a
+href="../amaya/topic.html">Amaya</a> or another web editor. Change the example
+.css and .html files. View the .html files in Internet Explorer, Chrome or
+other browsers. You will understand better how these centered, fixed width
+pages work.<strong></strong></p>
+
+<p><strong>References</strong></p>
+<hr />
+<ol>
+  <li><a name="L185" id="L185"></a><a href="#L189">^</a> <a
+    href="http://www.maxdesign.com.au/articles/css-layouts/">http://www.maxdesign.com.au/articles/css-layouts/</a>
+    Retrieved 2014 07 06</li>
+</ol>
+</div>
+
+<div id="footer">
+
+<div id="footer_text_left">
+<span xmlns:dct="http://purl.org/dc/terms/">YOW Doc</span> by
+<a xmlns:cc="http://creativecommons.org/ns#"
+href="https://sites.google.com/site/friedbook/" rel="cc:attributionURL">Scott
+Haines</a> is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
+4.0 International License</a> except where <a
+href="../attributions/topic.html">otherwise noted</a>.</div>
+
+<div id="footer_text_right">
+Page updated 2016 03 23, Copyright © Scott Haines, 2014 - 2016</div>
+</div>
+</div>
+</body>
+</html>

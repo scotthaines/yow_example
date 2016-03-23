@@ -1,0 +1,78 @@
+“Success does not consist in never making mistakes but in never making the same one a second time.” George Bernard Shaw
+
+“A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.” George Bernard Shaw
+
+Don't make the same mistake twice. source unknown
+
+"Those who cannot remember the past are condemned to repeat it"
+George Santayana (1905) Reason in Common Sense, p. 284, volume 1 of The Life of Reason
+http://en.wikipedia.org/wiki/George_Santayana
+
+The Magic School Bus TV show (1994–1998)
+Miss Frizzle: Take chances, make mistakes, get messy.
+
+----
+http://cup.columbia.edu/book/creating-a-learning-society/9780231152143
+Creating a Learning Society
+A New Approach to Growth, Development, and Social Progress
+Joseph E. Stiglitz and Bruce C. Greenwald. With Philippe Aghion, Kenneth J. Arrow, Robert M. Solow, and Michael Woodford
+
+Creating a Learning Society by Joseph Stiglitz
+lecture at Ragged University in Scotland
+https://www.youtube.com/watch?v=zYxBfUXI2wg
+
+http://www.jstor.org/discover/10.2307/2295952?uid=3739736&uid=2&uid=4&uid=3739256&sid=21104736295281
+"Taking as a starting point Kenneth J. Arrow's 1962 paper "Learning by Doing," they explain why the production of knowledge differs from that of other goods and why market economies alone typically do not produce and transmit knowledge efficiently."
+
+Kenneth J. Arrow; The Economic Implications of Learning by Doing. Review of
+Economic Studies, 29 (1962), pp. ... 425–458
+
+
+
+The following couple of entries were found after searching google for 
+google's experiments to improve
+----
+
+http://research.google.com/pubs/pub36500.html
+Venue
+
+Overlapping Experiment Infrastructure: More, Better, Faster Experimentation
+
+Abstract: At Google, experimentation is practically a mantra; we evaluate almost every change that potentially affects what our users experience. Such changes include not only obvious user-visible changes such as modifications to a user interface, but also more subtle changes such as different machine learning algorithms that might affect ranking or content selection. Our insatiable appetite for experimentation has led us to tackle the problems of how to run more experiments, how to run experiments that produce better decisions, and how to run them faster. In this paper, we describe Google’s overlapping experiment infrastructure that is a key component to solving these problems. In addition, because an experiment infrastructure alone is insufficient, we also discuss the associated tools and educational processes required to use it effectively. We conclude by describing trends that show the success of this overall experimental environment. While the paper specifically describes the experiment system and experimental processes we have in place at Google, we believe they can be generalized and applied by any entity interested in using experimentation to improve search engines and other web applications.
+
+Publication Data
+
+Proceedings 16th Conference on Knowledge Discovery and Data Mining, ACM, Washington, DC (2010), pp. 17-26
+
+Publication Year
+
+2010
+
+Authors
+
+Diane Tang, Ashish Agarwal, Deirdre O'Brien, Mike Meyer
+
+----
+https://support.google.com/analytics/answer/1745147?hl=en
+
+OVERVIEW OF CONTENT EXPERIMENTS
+Benefits of Experiments
+
+If you have a website, you have activities that you want your users to complete (e.g., make a purchase, sign up for a newsletter) and/or metrics that you want to improve (e.g., revenue, session duration, bounce rate). With Content Experiments, you can test which version of a landing page results in the greatest improvement in conversions (i.e. completed activities that you measure as goals) or metric value. You can test up to 10 variations of a landing page.
+
+
+----
+
+https://www.ted.com/talks/james_flynn_why_our_iq_levels_are_higher_than_our_grandparents?language=en
+James Flynn: Why our IQ levels are higher than our grandparents'
+
+TED2013 18:40 Filmed Mar 2013
+
+transcript
+https://www.ted.com/talks/james_flynn_why_our_iq_levels_are_higher_than_our_grandparents/transcript?language=en
+
+James Flynn Ted talk comes down to this
+    We can make better moral choices (and I would say all choices) if we both 
+        use better mental tools
+    and
+        remember history
