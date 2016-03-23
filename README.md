@@ -1,6 +1,6 @@
 yow_example
 ===========
 
-Your Own Web Example
+Your Own Web Doc
 
-[YOW Example website](http://scotthaines.github.io/yow_example/)
+[YOW Doc website](http://scotthaines.github.io/yow_example/)
